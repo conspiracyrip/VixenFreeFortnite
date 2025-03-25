@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="includes.h" />
+    <ClInclude Include="Memory\Custom\Map.h" />
+    <ClInclude Include="Memory\Custom\NoCRT.h" />
+    <ClInclude Include="Memory\Custom\Vector.h" />
+    <ClInclude Include="Memory\Safety\Imports.h" />
+    <ClInclude Include="Memory\Safety\SKCrypter.h" />
+    <ClInclude Include="Fortnite\Framework\Framework.h" />
+    <ClInclude Include="Fortnite\Exploits.h" />
+    <ClInclude Include="Fortnite\Settings.h" />
+    <ClInclude Include="Fortnite\Framework\Wrapper.h" />
+    <ClInclude Include="Fortnite\Features\DetermineTraceChannel.h" />
+    <ClInclude Include="Fortnite\Features\DrawTransition.h" />
+    <ClInclude Include="Fortnite\Features\GetWeaponTargetingTransform.h" />
+    <ClInclude Include="Fortnite\Engine\Classes.h" />
+    <ClInclude Include="Fortnite\Engine\Engine.h" />
+    <ClInclude Include="Memory\VTableHook.h" />
+    <ClInclude Include="Fortnite\Features\GetControlRotation.h" />
+    <ClInclude Include="Fortnite\Features\GetSearchTime.h" />
+    <ClInclude Include="Memory\Signature.h" />
+    <ClInclude Include="Fortnite\Features\HasInfiniteAmmo.h" />
+    <ClInclude Include="Fortnite\Features\Cosmetics.h" />
+    <ClInclude Include="Fortnite\Features\GetPlayerViewPoint.h" />
+    <ClInclude Include="Fortnite\Features\GetDamageStartLocation.h" />
+    <ClInclude Include="Fortnite\Features\FireSingle.h" />
+    <ClInclude Include="Fortnite\Features\TryToFire.h" />
+    <ClInclude Include="Fortnite\Features\GetCameraViewPoint.h" />
+    <ClInclude Include="Fortnite\DrawMenu.h" />
+    <ClInclude Include="Fortnite\Features\GetViewPoint.h" />
+    <ClInclude Include="Memory\Hook.h" />
+    <ClInclude Include="GInputProxy.h" />
+  </ItemGroup>
+</Project>
